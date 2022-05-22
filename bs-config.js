@@ -20,13 +20,13 @@ module.exports = {
     "watchEvents": [
         "change"
     ],
-    "watch": false,
+    "watch": true,
     "ignore": [],
     "single": false,
     "watchOptions": {
         "ignoreInitial": true
     },
-    "server": false,
+    "server": "src",
     "proxy": false,
     "port": 3000,
     "middleware": false,
@@ -47,7 +47,7 @@ module.exports = {
     "logFileChanges": true,
     "logSnippet": true,
     "rewriteRules": [],
-    "open": "local",
+    "open": false,
     "browser": "default",
     "cors": false,
     "xip": false,
